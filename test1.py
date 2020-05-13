@@ -1,2 +1,2 @@
 #holi
-print("holi")
+print("holi chics")
