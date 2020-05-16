@@ -1,2 +1,0 @@
-#holi
-print("holi chics")
