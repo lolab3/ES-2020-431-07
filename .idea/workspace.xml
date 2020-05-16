@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="new ficheros" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1brS0noEkcD1o1pYGZiGTJfPj9t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="" />
+      <created>1589388499095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589388499095</updated>
+    </task>
+    <task id="LOCAL-00001" summary="prueba">
+      <created>1589390032831</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589390032831</updated>
+    </task>
+    <task id="LOCAL-00002" summary="prueba">
+      <created>1589390090671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589390090671</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ficheros practica">
+      <created>1589444816293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589444816293</updated>
+    </task>
+    <task id="LOCAL-00004" summary="clases que definimos nosotros">
+      <created>1589445107086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589445107086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="readme con nuestros nombres i NIUs">
+      <created>1589445407262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589445407262</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new ficheros">
+      <created>1589638151679</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589638151679</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/isabe/OneDrive/Escritorio/UNI/2n curs/2n Semestre/[ES]/practiques/P3/tests/P3_mock_demo/tests" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prueba" />
+    <MESSAGE value="ficheros practica" />
+    <MESSAGE value="clases que definimos nosotros" />
+    <MESSAGE value="readme con nuestros nombres i NIUs" />
+    <MESSAGE value="new ficheros" />
+    <option name="LAST_COMMIT_MESSAGE" value="new ficheros" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="81" key="#Unittests_in_tests" timestamp="1589388908502">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="459" y="81" key="#Unittests_in_tests/0.0.1500.960@0.0.1500.960" timestamp="1589388908502" />
+    <state x="206" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589637914157">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="206" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1589637914157" />
+    <state x="532" y="222" key="FileChooserDialogImpl" timestamp="1589638528674">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="532" y="222" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1589638528674" />
+    <state x="620" y="378" key="Github.ShareDialog" timestamp="1589389456837">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="620" y="378" key="Github.ShareDialog/0.0.1500.960@0.0.1500.960" timestamp="1589389456837" />
+    <state x="252" y="125" key="SettingsEditor" timestamp="1589389587289">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1589389587289" />
+    <state x="581" y="349" key="VCS.EditChangelistDialog" timestamp="1589630035078">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="581" y="349" key="VCS.EditChangelistDialog/0.0.1500.960@0.0.1500.960" timestamp="1589630035078" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1589638389889">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1589638389889" />
+    <state x="558" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589626060209">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="558" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.960@0.0.1500.960" timestamp="1589626060209" />
+    <state x="417" y="210" width="672" height="678" key="search.everywhere.popup" timestamp="1589631632843">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="417" y="210" width="672" height="678" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1589631632843" />
+    <state x="561" y="166" key="svn.repositoryBrowser" timestamp="1589638443443">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="561" y="166" key="svn.repositoryBrowser/0.0.1500.960@0.0.1500.960" timestamp="1589638443443" />
+  </component>
+</project>
