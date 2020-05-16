@@ -1,4 +1,4 @@
-from . import User as u
+from ESPractica.P3_mock_demo.src import User as u
 import os
 import sys
 import unittest
