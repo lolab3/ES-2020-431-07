@@ -14,6 +14,3 @@ class Flight(object):
         print(self.precio)
         print(self.N_pjs)
 
-         
-    
-        
