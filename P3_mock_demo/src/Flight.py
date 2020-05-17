@@ -1,3 +1,5 @@
+import os
+
 class Flight(object):
 
     def __init__(self, codigo, destino, precio, pjs):

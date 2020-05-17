@@ -1,4 +1,4 @@
-
+import os
 class Destination:
     
     def __init__(self, lugar, dias):

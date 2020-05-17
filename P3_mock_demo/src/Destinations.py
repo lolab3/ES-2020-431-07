@@ -4,7 +4,7 @@ Created on Fri May 15 23:46:48 2020
 
 @author: Usuario
 """
-from Destination import Destination
+import Destination
 
 class Destinations:
     
