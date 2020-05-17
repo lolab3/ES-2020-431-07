@@ -1,30 +1,30 @@
-from vols import Vuelos
+from Flight import Flight
 
 class Flights:
 
-    def __init__(self,Vuelo):
-        self.vuelos = Vuelo
+    def __init__(self,Flight):
+        self.flights = Flight
             
     def informacion(self):
-        for elements in self.vuelos:
+        for elements in self.flights:
             print(elements.Destinacion)
 
     def añadirVuelo(self,codigo, destino, precio, pjs):
-        v = Vuelos(codigo, destino, precio, pjs)
-        self.vuelos.append(v)
-        for elements in self.vuelos:
+        v = Flight(codigo, destino, precio, pjs)
+        self.flights.append(v)
+        for elements in self.flights:
             print(elements.Codigo_vuelo)
             
     def eliminarVuelo(self,dest):
         i = 0
-        for elements in self.vuelos:
+        for elements in self.flights:
             if elements.Destinacion == dest:
                 borrar = i 
             else:
                 i = i+1
         
         
-        self.vuelos.pop(borrar)        
-        for elements in self.vuelos:
+        self.flights.pop(borrar)
+        for elements in self.flights:
             print(elements.Destinacion)
     
