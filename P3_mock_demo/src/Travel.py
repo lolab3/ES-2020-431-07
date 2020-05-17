@@ -8,7 +8,7 @@ Created on Fri May 15 23:40:39 2020
 from Flights import Flights
 from Destinos import Destinos
 
-class Viaje:
+class Travel:
     
     
     def __init__(self,flight,destinos):

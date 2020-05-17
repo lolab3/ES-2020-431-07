@@ -1,12 +1,12 @@
-
-class Destino:
+import os
+class Destination:
     
     def __init__(self, lugar, dias):
-        self.destinacion = lugar
+        self.Destination = lugar
         self.dias = dias
     
-    def informacion(self):
-        print (self.destinacion)
+    def info(self):
+        print (self.Destination)
         print (self.dias)
         
     

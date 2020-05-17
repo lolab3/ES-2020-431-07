@@ -4,14 +4,14 @@ Created on Fri May 15 23:46:48 2020
 
 @author: Usuario
 """
-from Destino import Destino
+import Destination
 
-class Destinos:
+class Destinations:
     
-    def __init__(self,destino):
-        self.dest = destino
+    def __init__(self,destination):
+        self.dest = destination
         
-    def informacion(self):
+    def info(self):
         for elements in self.dest:
             print(elements.destinacion)
             
