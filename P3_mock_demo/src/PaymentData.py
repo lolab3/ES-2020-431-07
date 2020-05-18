@@ -1,6 +1,8 @@
-from . import Travel
+from Travel import *
+
+V = Travel()
 class PaymentData:
-    def init(self, V = Viaje.Viaje()):
+    def init(self, V):
         #V2 self.Tipus_targeta = ''
         self.Nom = ''
         self.Numero_targeta = 0

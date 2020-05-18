@@ -1,4 +1,4 @@
-from . import Flight
+from Flight import *
 
 class Flights:
 
