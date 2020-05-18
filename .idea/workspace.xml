@@ -5,10 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="new ficheros">
+    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Flights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/testeo.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/testeo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
@@ -54,6 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589388499095</updated>
+      <workItem from="1589789867671" duration="372000" />
     </task>
     <task id="LOCAL-00001" summary="prueba">
       <created>1589390032831</created>
@@ -97,8 +99,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589638151679</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new ficheros">
+      <created>1589760901665</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589760901665</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -155,6 +167,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="206" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1589637914157" />
+    <state x="248" y="0" key="CommitChangelistDialog2" timestamp="1589760900837">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="248" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589760900837" />
     <state x="532" y="222" key="FileChooserDialogImpl" timestamp="1589638528674">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -171,9 +187,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="581" y="349" key="VCS.EditChangelistDialog/0.0.1500.960@0.0.1500.960" timestamp="1589630035078" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1589638389889">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="293" y="147" key="Vcs.Push.Dialog.v2" timestamp="1589760903618">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="293" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589760903618" />
     <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1589638389889" />
     <state x="476" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589760893630">
       <screen x="0" y="0" width="1280" height="680" />

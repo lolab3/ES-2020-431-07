@@ -4,9 +4,9 @@ Created on Fri May 15 23:40:39 2020
 
 @author: Usuario
 """
-from PaymentData import *
-from Flights import Flights
-from Destinos import Destinos
+from . import PaymentData
+from . import Flights
+from  import Destination
 
 class Travel:
     

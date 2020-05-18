@@ -1,4 +1,4 @@
-from Flight import Flight
+from . import Flight
 
 class Flights:
 
