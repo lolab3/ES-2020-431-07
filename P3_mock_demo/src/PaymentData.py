@@ -21,4 +21,8 @@ class PaymentData:
         else:
             return True
 
-
+    def confirmarPago(self, valido):
+        if (valido == True):
+            print('Pago realizado correctamente')
+        else:
+            print('Error en el pago')
