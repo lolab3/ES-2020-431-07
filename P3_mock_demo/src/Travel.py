@@ -6,7 +6,7 @@ Created on Fri May 15 23:40:39 2020
 """
 from . import PaymentData
 from . import Flights
-from  import Destination
+from . import Destination
 
 class Travel:
     

@@ -3,4 +3,3 @@ class Reserva:
         self.id_reserva=id_reserva
         self.preuReserva=preu
 
-    def confirmarReserva():
