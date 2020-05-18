@@ -45,3 +45,8 @@ V.añadirD('Sevilla', 3)
 print('-----------------------------------')
 V.añadirV(2134576,'Sevilla', 23, 3)
 
+
+print('precio total:')
+print('-----------------------------------')
+total = f.calcula_preu()
+print(total)

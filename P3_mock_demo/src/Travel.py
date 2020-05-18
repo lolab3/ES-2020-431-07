@@ -47,3 +47,9 @@ class Travel:
 
         return l
 
+    def calcula_preu(self):
+        preutotal = 0
+        for i in self.precio:
+            preutotal += i
+        self.precio = preutotal
+        return preutotal
