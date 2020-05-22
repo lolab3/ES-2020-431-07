@@ -1,5 +1,5 @@
-from . import Travellers as tv
-from Travellers import *
+from . import Travellers
+from . import Travel
 
 class User:
 

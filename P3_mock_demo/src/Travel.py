@@ -4,9 +4,10 @@ Created on Fri May 15 23:40:39 2020
 
 @author: Usuario
 """
-from PaymentData import *
-from Flights import *
-from Destination import *
+from . import PaymentData
+from . import Flights
+from . import Flight
+from . import Destination
 
 class Travel:
     
@@ -49,7 +50,7 @@ class Travel:
 
     def calcula_preu(self):
         preutotal = 0
-        for i in self.precio:
-            preutotal += i
-        self.precio = preutotal
+        for i in self.f:
+            preutotal += i.precio
+
         return preutotal

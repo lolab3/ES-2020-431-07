@@ -4,7 +4,7 @@ Created on Fri May 15 23:46:48 2020
 
 @author: Usuario
 """
-import Destination
+from . import Destination
 
 class Destinations:
     
@@ -29,7 +29,7 @@ class Destinations:
             print(elements.destinacion)
             
     def añadirDestino(self, lugar, dias):
-        d = Destino(lugar, dias)
+        d = Destination(lugar, dias)
         self.dest.append(d)
         for elements in self.dest:
             print(elements.destinacion)

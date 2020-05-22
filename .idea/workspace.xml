@@ -7,10 +7,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Destinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Destinations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Flights.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Reserva.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/User.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/testeo.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/testeo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PracticaIA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
@@ -239,22 +240,42 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="620" y="378" key="Github.ShareDialog/0.0.1500.960@0.0.1500.960" timestamp="1589389456837" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589818737831">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom" timestamp="1590160159150">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589818737831" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589818737831">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590160159150" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center" timestamp="1590160159150">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589818737831" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589818737830">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590160159150" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left" timestamp="1590160159150">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589818737830" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589818737831">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590160159150" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right" timestamp="1590160159150">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589818737831" />
+    <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590160159150" />
+    <state width="1362" height="328" key="GridCell.Tab.1.bottom" timestamp="1590160108653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590160108653" />
+    <state width="1362" height="328" key="GridCell.Tab.1.center" timestamp="1590160108653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590160108653" />
+    <state width="1362" height="328" key="GridCell.Tab.1.left" timestamp="1590160108653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590160108653" />
+    <state width="1362" height="328" key="GridCell.Tab.1.right" timestamp="1590160108653">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1362" height="328" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590160108653" />
     <state x="252" y="125" key="SettingsEditor" timestamp="1589389587289">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -281,8 +302,5 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="561" y="166" key="svn.repositoryBrowser/0.0.1500.960@0.0.1500.960" timestamp="1589638443443" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ESPractica$testeo.coverage" NAME="testeo Coverage Results" MODIFIED="1589818737794" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/P3_mock_demo/src" />
   </component>
 </project>
