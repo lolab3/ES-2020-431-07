@@ -5,11 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="ligero cambio">
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/tests/mock/test_mock_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/tests/mock/test_mock_1.py" afterDir="false" />
-    </list>
+    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="readme delante de todo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590167539046</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="readme delante de todo">
+      <created>1590186931327</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590186931328</updated>
+    </task>
+    <task id="LOCAL-00014" summary="readme delante de todo">
+      <created>1590187046382</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590187046382</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +237,8 @@
     <MESSAGE value="Trabajo ferran" />
     <MESSAGE value="Actualización" />
     <MESSAGE value="ligero cambio" />
-    <option name="LAST_COMMIT_MESSAGE" value="ligero cambio" />
+    <MESSAGE value="readme delante de todo" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme delante de todo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="459" y="81" key="#Unittests_in_tests" timestamp="1589388908502">
@@ -304,11 +315,11 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="581" y="349" key="VCS.EditChangelistDialog/0.0.1500.960@0.0.1500.960" timestamp="1589630035078" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1590167541451">
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2" timestamp="1590186934077">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="293" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589792884257" />
-    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1590167541451" />
+    <state x="343" y="213" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1590186934077" />
     <state x="440" y="233" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1590160561642" />
     <state x="476" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589817868094">
       <screen x="0" y="0" width="1280" height="680" />
