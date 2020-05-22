@@ -57,8 +57,12 @@ class Travel:
         preciovuelos = self.f.calculaflights()
         return preciovuelos
 
-    def confirmarViaje(self, tipus, nom, numero, codi, V):
-        pago = PaymentData(V)
-        pago.solicitarDatos(tipus, nom, numero, codi)
-        valido = pago.validarDatosPago()
-        pago.confirmarPago(valido)
+    def Pago_viaje(self, tipus, nom, numero, codi):
+        PD = PaymentData.PaymentData(self)
+        PD.solicitarDatos(tipus, nom, num, codi)
+        valid = PD.validarDatosPago()
+        PD.confirmarPago(valid)
+        return valid
+
+    def confirmarViaje(self, tipus, nom, numero, codi):
+       return self.Pago_viaje(tipus, nom, numero, codi)
