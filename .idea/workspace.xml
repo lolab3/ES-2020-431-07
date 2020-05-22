@@ -5,15 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Destinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Destinations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Flight.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Flight.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Flights.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/testeo.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/testeo.py" afterDir="false" />
-    </list>
+    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,8 +46,8 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration name="testeo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ESPractica" />
+    <configuration name="testeo" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="ES-2020-431-07" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -208,13 +200,12 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prueba" />
@@ -235,6 +226,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="206" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1589637914157" />
+    <state x="459" y="75" key="#testeo" timestamp="1590167233120">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="459" y="75" key="#testeo/0.0.1500.960@0.0.1500.960" timestamp="1590167233120" />
     <state x="540" y="82" key="CommitChangelistDialog2" timestamp="1590160552752">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

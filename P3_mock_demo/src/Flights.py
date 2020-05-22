@@ -26,7 +26,7 @@ class Flights:
         
         self.flights.pop(borrar)
         for elements in self.flights:
-            print(elements.Destinacion)
+            print(elements.Codigo_vuelo)
 
     def calculaflights(self):
         preutotal = 0
