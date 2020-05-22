@@ -4,21 +4,21 @@ Created on Fri May 15 23:46:48 2020
 
 @author: Usuario
 """
-from . import Destination
+from P3_mock_demo.src.Destination import Destination
 
 class Destinations:
     
-    def __init__(self,destination):
+    def __init__(self, destination):
         self.dest = destination
         
     def info(self):
         for elements in self.dest:
-            print(elements.destinacion)
+            print(elements.Destination)
             
     def eliminarDestino(self,destino):
         i = 0
         for elements in self.dest:
-            if elements.destinacion == destino:
+            if elements.Destination == destino:
                 borrar = i
             else:
                 i = i+1
@@ -26,13 +26,13 @@ class Destinations:
         
         self.dest.pop(borrar)        
         for elements in self.dest:
-            print(elements.destinacion)
+            print(elements.Destination)
             
     def añadirDestino(self, lugar, dias):
-        d = Destination(lugar, dias)
-        self.dest.append(d)
+        des = Destination(lugar, dias)
+        self.dest.append(des)
         for elements in self.dest:
-            print(elements.destinacion)
+            print(elements.Destination)
     
     
     

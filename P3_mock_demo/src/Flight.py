@@ -1,6 +1,6 @@
 import os
 
-class Flight(object):
+class Flight:
 
     def __init__(self, codigo, destino, precio, pjs):
         self.Codigo_vuelo = codigo

@@ -4,10 +4,15 @@ Created on Fri May 15 23:40:39 2020
 
 @author: Usuario
 """
+
+from P3_mock_demo.src.Flights import Flights
+
 from . import PaymentData
 from . import Flights
 from . import Flight
+from . import Destinations
 from . import Destination
+
 
 class Travel:
     
@@ -37,20 +42,17 @@ class Travel:
 
 
 
-    def lista_viajeros(self, num, t: tv): #num de viajeros aparte del user >= 1
-        l = []
-        l.append(self)
+    #def lista_viajeros(self, num, t: tv): #num de viajeros aparte del user >= 1
+        #l = []
+        #l.append(self)
 
-        if num >= 1:
-            self.set_NViajeros(num+1) #num de viajeros incluido el user
-            for v in range(self.NViajeros-1): #sin contar el user
-                l.append(t.Travellers('Viajero', v+1))#su DNI será un número
+        #if num >= 1:
+            #self.set_NViajeros(num+1) #num de viajeros incluido el user
+            #for v in range(self.NViajeros-1): #sin contar el user
+                #l.append(t.Travellers('Viajero', v+1))#su DNI será un número
 
-        return l
+        #return l
 
     def calcula_preu(self):
-        preutotal = 0
-        for i in self.f:
-            preutotal += i.precio
-
-        return preutotal
+        preciovuelos = self.f.calculaflights()
+        return preciovuelos

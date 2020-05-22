@@ -1,4 +1,4 @@
-from . import Flight
+from P3_mock_demo.src.Flight import Flight
 
 class Flights:
 
@@ -27,4 +27,10 @@ class Flights:
         self.flights.pop(borrar)
         for elements in self.flights:
             print(elements.Destinacion)
-    
+
+    def calculaflights(self):
+        preutotal = 0
+        for i in self.flights:
+            preutotal += i.precio * i.N_pjs
+
+        return preutotal

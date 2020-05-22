@@ -1,17 +1,16 @@
 from . import Travel
 
 
-V = Travel()
 class PaymentData:
     def init(self, V):
-        V2 self.Tipus_targeta = ''
+        self.Tipus_targeta = ''
         self.Nom = ''
         self.Numero_targeta = 0
         self.CodiSeguretat = 0
         self.Import = V.calculaprecio()
 
     def solicitarDatos(self,tipus,nom,numero,codi):
-        V2 self.Tipus_targeta = tipus
+        self.Tipus_targeta = tipus
         self.Nom = nom
         self.Numero_targeta = numero
         self.CodiSeguretat = codi
