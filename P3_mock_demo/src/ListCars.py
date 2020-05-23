@@ -1,30 +1,31 @@
-from . import Cars
+from P3_mock_demo.src.Cars import Cars
 from . import Rentalcars
 
 class Car:
 
-    def __init__(self, cars, user):
-        self.cars = cars
+    def __init__(self, Cars):
+        self.cars = Cars
 
-    def añadirCoche(self, car):
-        self.cars.append(car)
-        self.calculaCars()
+    def añadirCar(self, codigo, marca, sitio_recogida, dias, precio):
+        v = Cars(codigo, marca, sitio_recogida, dias, precio)
+        self.cars.append(v)
+        for elements in self.cars:
+            print(elements.Marca)
 
-    def eliminarCoche(self, car):
-        i=self.cars.index(car)
-        self.cars.pop(i)
-        self.calculaCars()
+    def eliminarCar(self, marca):
+        i = 0
+        for elements in self.cars:
+            if elements.Marca == marca:
+                borrar = i
+            else:
+                i = i + 1
+        self.cars.pop(borrar)
+        for elements in self.cars:
+            print(elements.Marca)
 
     def calculaCars(self):
         preutotal = 0
         for i in self.cars:
-            preutotal += i.Precio
+            preutotal += i.Precio * i.Dias
         return preutotal
 
-    def confirmar_reserva(self, Rentalcars):
-        if Rentalcars.confirm_reserve(self.cars):
-            print('Reserva del coche realizada con éxito')
-            return True
-        else:
-            print('Error en la reserva del coche')
-            return False

@@ -1,6 +1,6 @@
 import os
 import os.path
-from . import Hotel
+from P3_mock_demo.src.Hotel import Hotel
 
 class Hotels:
 
@@ -8,29 +8,31 @@ class Hotels:
         self.Hotels=h
         pass
 
-    def añadirHotel(self, Hotel):
-        self.Hotels.append(Hotel)
-        self.calculaHotels()
+    def añadirHotel(self, codigo, nom, nHostes, nHabitacions, durada, preu):
+        v = Hotel(codigo, nom, nHostes, nHabitacions, durada, preu)
+        self.Hotels.append(v)
+        for elements in self.Hotels:
+            print(elements.Nombre)
 
-    def eliminarHotel(self, Hotel):
-        i=self.Hotels.index(Hotel)
-        self.Hotels.pop(i)
-        self.calculaHotels()
+    def eliminarHotel(self, nom):
+        i = 0
+        for elements in self.Hotels:
+            if elements.Nombre == nom:
+                borrar = i
+            else:
+                i = i + 1
+        self.Hotels.pop(borrar)
+        for elements in self.Hotels:
+            print(elements.Nombre)
 
     def calculaHotels(self):
         preutotal = 0
         for i in self.Hotels:
-            preutotal += i.Precio
+            preutotal += i.Precio * i.numHabitaciones * i.duracion
 
         return preutotal
 
-    def confirmar_reserva(self, Booking):
-        if Booking.confirm_reserve(self.hotels):
-            print('Reserva del hotel realizada con éxito')
-            return True
-        else:
-            print('Error en la reserva del hotel')
-            return False
+
 
     def rm(self, filename):
         """Dummy function to remove a file.

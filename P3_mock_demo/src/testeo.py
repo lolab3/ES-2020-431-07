@@ -18,9 +18,6 @@ from P3_mock_demo.src.User import User
 from P3_mock_demo.src.PaymentData import PaymentData
 
 
-
-
-
 #testeo clase Vuelo y Flights
 print('testeo clase Vuelo y Flights:')
 v1 = Flight(1234567, 'Barcelona', 35, 4)
@@ -50,63 +47,62 @@ print('-----------------------------------')
 print('testeo clase Viaje eliminar:')
 usuari=User('Fernando', '0000000A', 'Carrer Montblanc', '103860647', 'fernando@ejemplo.com')
 Pd = PaymentData()
+
 coche=Cars('6677TZ', 'Renault', 'Terrassa', 10, 100)
 coche2=Cars('1238TL', 'Opel', 'Barcelona', 5, 60)
 hotel=Hotel('L2310', 'Don Candido', 3, 1, 5, 120)
-hotel2=Hotel('M1291', 'Vela', 2, 1, 7, 2000)
+hotel2=Hotel('M1291', 'Vela', 2, 1, 7, 500)
 
-listacoches=Car([])
-listacoches.añadirCoche(coche2)
-listacoches.añadirCoche(coche)
+listacoches = []
+listacoches.append(coche2)
+listacoches.append(coche)
 
-listahoteles=Hotels([])
-listahoteles.añadirHotel(hotel)
-listahoteles.añadirHotel(hotel2)
+C = Car(listacoches)
+
+listahoteles = []
+listahoteles.append(hotel)
+listahoteles.append(hotel2)
+
+H = Hotels(listahoteles)
 
 Pd.solicitarDatos('MASTERCARD', 'Fernando', 42122343, 872)
+viajero = Traveller('Manolo', '12345678P')
+V = Travel(f, D, 123, usuari, Pd, C, H, 3, viajero)
 
-V = Travel(f, D, 123, usuari, Pd, listacoches, listahoteles)
 #Eliminas destino y vuelo
 V.eliminarD('Barcelona')
+
 print('-----------------------------------')
 print('testeo clase Viaje añadir:')
 V.añadirD('Sevilla', 3)
 print('-----------------------------------')
 V.añadirV(2134576, 'Sevilla', 23, 3)
 
-
-
 print('-----------------------------------')
 print('precio total:')
-total = V.calcula_preu()
-print(total)
 
+a = V.calcula_preu()
+print(a)
+print('-----------------------------------')
+print('Añadir y eliminar hoteles: ')
 
+for elements in listahoteles:
+    print(elements.Nombre)
+print('-----------------------------------')
+V.eliminarH('Don Candido')
+print('-----------------------------------')
+V.añadirH('L2310', 'Apolo', 3, 1, 5, 80)
+print('-----------------------------------')
 print('Añadir y eliminar coches: ')
 
-
-
-for i in listacoches.cars:
-    print(i.Codigo_coche)
-    print(i.Marca)
-
-listacoches.eliminarCoche(coche)
+for elements in listacoches:
+    print(elements.Marca)
 print('-----------------------------------')
-for i in listacoches.cars:
-    print(i.Codigo_coche)
-    print(i.Marca)
-
-print('Añadir y eliminar hotles: ')
-
-
-
-for i in listahoteles.Hotels:
-    print(i.Nombre)
-
-listahoteles.eliminarHotel(hotel)
+V.eliminarC('Renault')
 print('-----------------------------------')
-for i in listahoteles.Hotels:
-    print(i.Nombre)
+V.añadirC('6677TZ', 'Toyota', 'Badalona', 5, 70)
+
+
 
 
 print('-----------------------------------')
