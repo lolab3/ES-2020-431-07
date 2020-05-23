@@ -25,7 +25,7 @@ class Hotels:
         return preutotal
 
     def confirmar_reserva(self, Booking):
-        if Booking.confirm_reserve(self.hotels.user, self.hotels):
+        if Booking.confirm_reserve(self.hotels):
             print('Reserva del hotel realizada con éxito')
             return True
         else:

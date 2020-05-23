@@ -2,13 +2,12 @@ import requests
 
 class Cars:
 
-    def __init__(self, codigo, marca, sitio_recogida, dias, precio, user):
+    def __init__(self, codigo, marca, sitio_recogida, dias, precio):
         self.Codigo_coche = codigo
         self.Direccion=sitio_recogida
         self.Marca=marca
         self.Dias=dias
         self.Precio=precio
-        self.user = user
 
     def informacionCoche(self):
         print(self.Codigo_coche)

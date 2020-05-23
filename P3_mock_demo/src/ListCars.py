@@ -22,7 +22,7 @@ class Car:
         return preutotal
 
     def confirmar_reserva(self, Rentalcars):
-        if Rentalcars.confirm_reserve(self.cars.user, self.cars):
+        if Rentalcars.confirm_reserve(self.cars):
             print('Reserva del coche realizada con éxito')
             return True
         else:

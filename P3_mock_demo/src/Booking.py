@@ -7,5 +7,5 @@ class Booking:
     def __init__(self):
         pass
 
-    def confirm_reserve(self, user: User, hotels: Hotels) -> bool:
+    def confirm_reserve(self, hotels: Hotels) -> bool:
         return True
