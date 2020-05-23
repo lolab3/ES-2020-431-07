@@ -80,7 +80,6 @@ V.añadirV(2134576, 'Sevilla', 23, 3)
 
 print('-----------------------------------')
 print('precio total:')
-
 a = V.calcula_preu()
 print(a)
 print('-----------------------------------')
@@ -117,7 +116,6 @@ f = Flights(0)
 T = Travel(f, d, 0, U, p, c, h, 1, Tv)
 tl = []
 tl = T.lista_viajeros(3)
-print(tl)
 print(tl[0].get_Nom())
 print(tl[0].get_DNI())
 print(tl[1].get_NomViajero())

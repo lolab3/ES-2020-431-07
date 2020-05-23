@@ -1,5 +1,4 @@
 
-from . import Travel
 
 class User:
 

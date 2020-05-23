@@ -5,21 +5,18 @@ Created on Fri May 15 23:40:39 2020
 @author: Usuario
 """
 
-from P3_mock_demo.src.Flights import Flights
 
-from . import PaymentData as PD
-from . import Flights as Fls
-from . import Flight as Fl
-from . import Destinations as Ds
-from . import Cars as Cs
-from . import Destination
-from . import Bank
-from . import User as Us
-from . import Skyscanner
-from . import Hotel as H
-from . import Traveller as Tv
-from . import Hotels as Hs
-from . import ListCars as C
+from P3_mock_demo.src.Destination import Destination
+from P3_mock_demo.src.Flights import Flights as Fls
+from P3_mock_demo.src.Destinations import Destinations as Ds
+from P3_mock_demo.src.Traveller import Traveller as Tv
+from P3_mock_demo.src.Flight import Flight as Fl
+from P3_mock_demo.src.Cars import Cars as Cs
+from P3_mock_demo.src.ListCars import Car as C
+from P3_mock_demo.src.Hotel import Hotel as H
+from P3_mock_demo.src.Hotels import Hotels as Hs
+from P3_mock_demo.src.User import User as Us
+from P3_mock_demo.src.PaymentData import PaymentData as PD
 
 class Travel:
 
@@ -83,7 +80,7 @@ class Travel:
         if num >= 1:
             self.set_NViajeros(num+1) #num de viajeros incluido el user
             for i in range(0, num):
-                t = Tv.Traveller('Viajero', i)
+                t = Tv('Viajero', i)
                 l.append(t)
 
         self.viajeros = l
@@ -94,6 +91,7 @@ class Travel:
         preciocoches= self.coches.calculaCars()
         precioHoteles=self.hoteles.calculaHotels()
         preciototal=preciocoches+precioHoteles+preciovuelos
+        PD.Import = preciototal
         return preciototal
 
     def Pago_viaje(self, Bank):

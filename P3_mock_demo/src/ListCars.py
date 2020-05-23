@@ -1,5 +1,4 @@
 from P3_mock_demo.src.Cars import Cars
-from . import Rentalcars
 
 class Car:
 

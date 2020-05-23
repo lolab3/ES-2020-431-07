@@ -1,5 +1,4 @@
-from . import Travel
-from . import Bank
+
 
 class PaymentData:
     def __init__(self):
@@ -7,7 +6,7 @@ class PaymentData:
         self.Nom = ''
         self.Numero_targeta = 0
         self.CodiSeguretat = 0
-        #self.Import = Travel.Travel.calcula_preu(self)
+        self.Import = 0
 
     def solicitarDatos(self,tipus,nom,numero,codi):
         self.Tipus_targeta = tipus
