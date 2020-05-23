@@ -91,6 +91,7 @@ class TestV1(unittest.TestCase):
         result = V.confirmar_reserva_vuelos(mock_Skyscanner)
         self.assertFalse(result)
 
+    #test Confirmacion Reserva Cars
     @mock.patch('P3_mock_demo.src.Rentalcars')
     def test_ReservaCocheV1(self, mock_Rentalcars):
         mock_Rentalcars.confirm_reserve.return_value = False
@@ -113,6 +114,7 @@ class TestV1(unittest.TestCase):
         result = V.confirmar_reserva_vehiculos(mock_Rentalcars)
         self.assertFalse(result)
 
+    # test Confirmacion Reserva Hotels
     @mock.patch('P3_mock_demo.src.Booking')
     def test_ReservaHotelV1(self, mock_Booking):
         mock_Booking.confirm_reserve.return_value = False
