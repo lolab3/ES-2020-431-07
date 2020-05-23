@@ -13,6 +13,7 @@ from P3_mock_demo.src import ListCars
 from P3_mock_demo.src import Traveller
 from P3_mock_demo.src import Booking
 from P3_mock_demo.src import Rentalcars
+from P3_mock_demo.src import Skyscanner
 
 
 
@@ -138,6 +139,32 @@ class TestV1(unittest.TestCase):
         result = V.confirmar_reserva_hoteles(mock_Booking)
         self.assertFalse(result)
 
+    @mock.patch('P3_mock_demo.src.Skyscanner')
+    @mock.patch('P3_mock_demo.src.Rentalcars')
+    @mock.patch('P3_mock_demo.src.Booking')
+    def test_ReservaTotal(self, mock_Skyscanner, mock_Rentalcars, mock_Booking):
+        mock_Booking.confirm_reserve.return_value = False
+        mock_Skyscanner.confirm_reserve.return_value = False
+        mock_Rentalcars.confirm_reserve.return_value = False
+        # datos de hotel
+        v = [Flight.Flight(1234567, 'Barcelona', 35, 4), Flight.Flight(3215674, 'Madrid', 40, 3)]
+        f = Flights.Flights(v)
+        r = [Destination.Destination('Barcelona', 5), Destination.Destination('Madrid', 4)]
+        D = Destinations.Destinations(r)
+        hotels = [Hotel.Hotel('L2310', 'Don Candido', 3, 1, 5, 120), Hotel.Hotel('M1291', 'Vela', 2, 1, 7, 2000)]
+        h = Hotels.Hotels(hotels)
+        coches = [Cars.Cars('6677TZ', 'Renault', 'Terrassa', 10, 100), Cars.Cars('1238TL', 'Opel', 'Barcelona', 5, 60)]
+        c = ListCars.Car(coches)
+        Tv = Traveller.Traveller(' ', 0)
+        c = ListCars.Car(coches)
+        # datos de pago
+        Pd = PaymentData.PaymentData()
+        Pd.solicitarDatos('MASTERCARD', 'denis', 42122343, 872)
+        # datos de usuario
+        Usuario = User.User('denis', '32421213', 'hernan cortes, n 24', '651097675', 'denismontoyadelcanto@gmail.com')
+        V = Travel.Travel(f, D, 123, Usuario, Pd, c, h , 1 , Tv)
+        result = V.confirmar_reserva(mock_Skyscanner, mock_Rentalcars, mock_Booking)
+        self.assertFalse(result)
 
 if __name__ == '__main__':
     unittest.main()

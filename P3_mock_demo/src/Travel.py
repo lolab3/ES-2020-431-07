@@ -140,5 +140,8 @@ class Travel:
             if self.confirmar_reserva_vehículos(Rentalcars):
                 if self.confirmar_reserva_hoteles(Booking):
                     b = True
-
+        if b:
+            print('Error en la reserva')
+        else:
+            print('Reserva Confirmada')
         return b
