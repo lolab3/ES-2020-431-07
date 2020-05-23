@@ -24,6 +24,13 @@ class Hotels:
 
         return preutotal
 
+    def confirmar_reserva(self, Booking):
+        if Booking.confirm_reserve(self.hotels.user, self.hotels):
+            print('Reserva del hotel realizada con éxito')
+            return True
+        else:
+            print('Error en la reserva del hotel')
+            return False
 
     def rm(self, filename):
         """Dummy function to remove a file.

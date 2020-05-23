@@ -6,7 +6,11 @@ from P3_mock_demo.src import Flights
 from P3_mock_demo.src import Destinations
 from P3_mock_demo.src import PaymentData
 from P3_mock_demo.src import User
-from P3_mock_demo.src import Skyscanner
+from P3_mock_demo.src import Booking
+from P3_mock_demo.src import Rentalcars
+
+
+
 import unittest
 from unittest import mock
 

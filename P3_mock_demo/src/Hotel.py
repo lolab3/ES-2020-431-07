@@ -7,3 +7,4 @@ class Hotel:
         self.duracion=durada
         self.Precio=preu
 
+

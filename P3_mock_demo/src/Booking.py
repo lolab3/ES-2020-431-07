@@ -2,7 +2,7 @@ from . import User
 from . import Hotels
 
 
-class Booking():
+class Booking:
 
     def __init__(self):
         pass
