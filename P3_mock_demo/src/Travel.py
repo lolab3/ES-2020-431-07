@@ -118,7 +118,7 @@ class Travel:
             print('error en la reserva de vuelos')
             return False
 
-    def confirmar_reserva_vehículos(self, Rentalcars):
+    def confirmar_reserva_vehiculos(self, Rentalcars):
         if Rentalcars.confirm_reserve(self.user, self.coches):
             print('Reserva del coche realizada con éxito')
             return True
@@ -127,7 +127,7 @@ class Travel:
             return False
 
     def confirmar_reserva_hoteles(self, Booking):
-        if Booking.confirm_reserve(self.user, self.Hoteles):
+        if Booking.confirm_reserve(self.user, self.hoteles):
             print('Reserva del hotel realizada con éxito')
             return True
         else:
