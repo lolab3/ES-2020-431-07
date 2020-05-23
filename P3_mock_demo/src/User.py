@@ -1,4 +1,4 @@
-from . import Travellers
+
 from . import Travel
 
 class User:

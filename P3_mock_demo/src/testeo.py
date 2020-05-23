@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri May 15 11:27:15 2020
-
 @author: Usuario
 """
 
@@ -9,6 +8,7 @@ from P3_mock_demo.src.Destination import Destination
 from P3_mock_demo.src.Flights import Flights
 from P3_mock_demo.src.Destinations import Destinations
 from P3_mock_demo.src.Travel import Travel
+from P3_mock_demo.src.Traveller import Traveller
 from P3_mock_demo.src.Flight import Flight
 from P3_mock_demo.src.Cars import Cars
 from P3_mock_demo.src.ListCars import Car
@@ -108,3 +108,26 @@ print('-----------------------------------')
 for i in listahoteles.Hotels:
     print(i.Nombre)
 
+
+print('-----------------------------------')
+print('Testeo Lista Viajeros')
+U = User('Pepito', 1234567, 'Madrid x calle', 633486912, 'grupo@gmail.com')
+Tv = Traveller(' ', 0)
+d = Destinations(0)
+p = PaymentData()
+c = Cars('','','','','')
+h = Hotels(0)
+f = Flights(0)
+T = Travel(f, d, 0, U, p, c, h, 1, Tv)
+tl = []
+tl = T.lista_viajeros(3)
+print(tl)
+print(tl[0].get_Nom())
+print(tl[0].get_DNI())
+print(tl[1].get_NomViajero())
+print(tl[1].get_DNIViajero())
+print(tl[2].get_NomViajero())
+print(tl[2].get_DNIViajero())
+print(tl[3].get_NomViajero())
+print(tl[3].get_DNIViajero())
+print(T.NViajeros)

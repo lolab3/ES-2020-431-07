@@ -7,19 +7,21 @@ Created on Fri May 15 23:40:39 2020
 
 from P3_mock_demo.src.Flights import Flights
 
-from . import PaymentData
+from . import PaymentData as PD
 from . import Flights
-from . import Flight
-from . import Destinations
+from . import Flight as Fl
+from . import Destinations as Ds
+from . import Cars as Cs
 from . import Destination
 from . import Bank
-from . import User
+from . import User as Us
 from . import Skyscanner
-
+from . import Hotel as H
+from . import Traveller as Tv
 
 class Travel:
 
-    def __init__(self, flight, destinos, idViaje, usuario, datos_pago, Coches, Hoteles):
+    def __init__(self, flight: Fl, destinos: Ds, idViaje, usuario : Us, datos_pago: PD, Coches: Cs, Hoteles: H, NViajeros: int, viajero: Tv):
         self.f = flight
         self.d = destinos
         self.id = idViaje
@@ -27,6 +29,14 @@ class Travel:
         self.user = usuario
         self.coches=Coches
         self.hoteles=Hoteles
+        self.NViajeros = 1 #el user siempre
+        self.viajeros = viajero
+
+    def set_NViajeros(self, num):
+
+        self.NViajeros = num
+    def get_NViajeros(self):
+        return self.NViajeros
 
     def informacion(self):
         for elements in self.f:
@@ -45,16 +55,17 @@ class Travel:
     def añadirD(self, lugar, dias):
         self.d.añadirDestino(lugar, dias)
 
-    # def lista_viajeros(self, num, t: tv): #num de viajeros aparte del user >= 1
-    # l = []
-    # l.append(self)
+    def lista_viajeros(self, num): #num de viajeros aparte del user >= 1
+        l = []
+        l.append(self.user)#guarda un objeto user con todos sus datos
+        if num >= 1:
+            self.set_NViajeros(num+1) #num de viajeros incluido el user
+            for i in range(0, num):
+                t = Tv.Traveller('Viajero', i)
+                l.append(t)
 
-    # if num >= 1:
-    # self.set_NViajeros(num+1) #num de viajeros incluido el user
-    # for v in range(self.NViajeros-1): #sin contar el user
-    # l.append(t.Travellers('Viajero', v+1))#su DNI será un número
-
-    # return l
+        self.viajeros = l
+        return l
 
     def calcula_preu(self):
         preciovuelos = self.f.calculaflights()

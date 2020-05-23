@@ -6,13 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="readme delante de todo">
+      <change afterPath="$PROJECT_DIR$/P3_mock_demo/src/Hotel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/P3_mock_demo/src/ListCars.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Booking.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Booking.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Cars.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Cars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Hotel.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Hotel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Flights.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Hotels.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Hotels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/ListCars.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/ListCars.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P3_mock_demo/tests/mock/test_mock_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/tests/mock/test_mock_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/testeo.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/testeo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_mock_1.py">
+  <component name="RunManager">
     <configuration name="testeo" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="ES-2020-431-07" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,25 +77,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_mock_1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="ES-2020-431-07" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/P3_mock_demo/tests/mock" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/P3_mock_demo/tests/mock/test_mock_1.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_mock_1.py" />
         <item itemvalue="Python.testeo" />
       </list>
     </recent_temporary>
@@ -294,31 +278,31 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="620" y="378" key="Github.ShareDialog/0.0.1500.960@0.0.1500.960" timestamp="1589389456837" />
-    <state width="1237" height="267" key="GridCell.Tab.0.bottom" timestamp="1590254261038">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1339" height="179" key="GridCell.Tab.0.bottom" timestamp="1590248101640">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1237" height="267" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590254261038" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589818737831" />
     <state width="1339" height="179" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1590248101640" />
     <state width="840" height="256" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1590167515316" />
     <state width="1362" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1590165627868" />
-    <state width="1237" height="267" key="GridCell.Tab.0.center" timestamp="1590254261037">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1339" height="179" key="GridCell.Tab.0.center" timestamp="1590248101640">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1237" height="267" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590254261037" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589818737831" />
     <state width="1339" height="179" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1590248101640" />
     <state width="840" height="256" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1590167515316" />
     <state width="1362" height="266" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1590165627868" />
-    <state width="1237" height="267" key="GridCell.Tab.0.left" timestamp="1590254261037">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1339" height="179" key="GridCell.Tab.0.left" timestamp="1590248101640">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1237" height="267" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590254261037" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589818737830" />
     <state width="1339" height="179" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1590248101640" />
     <state width="840" height="256" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1590167515316" />
     <state width="1362" height="266" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1590165627867" />
-    <state width="1237" height="267" key="GridCell.Tab.0.right" timestamp="1590254261038">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1339" height="179" key="GridCell.Tab.0.right" timestamp="1590248101640">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1237" height="267" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590254261038" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589818737831" />
     <state width="1339" height="179" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1590248101640" />
     <state width="840" height="256" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1590167515316" />
     <state width="1362" height="266" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590165627868" />
@@ -357,10 +341,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="376" y="188" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1590242830944" />
-    <state x="476" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590254422573">
+    <state x="476" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589817868094">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="476" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1590254422573" />
+    <state x="476" y="279" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1589817868094" />
     <state x="558" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.960@0.0.1500.960" timestamp="1589626060209" />
     <state x="417" y="210" width="672" height="678" key="search.everywhere.popup" timestamp="1589631632843">
       <screen x="0" y="0" width="1500" height="960" />
@@ -370,9 +354,5 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="561" y="166" key="svn.repositoryBrowser/0.0.1500.960@0.0.1500.960" timestamp="1589638443443" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ES_2020_431_07$testeo.coverage" NAME="testeo Coverage Results" MODIFIED="1590253539233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/P3_mock_demo/src" />
-    <SUITE FILE_PATH="coverage/ES_2020_431_07$pytest_in_test_mock_1_py.coverage" NAME="pytest in test_mock_1.py Coverage Results" MODIFIED="1590253554302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/P3_mock_demo/tests/mock" />
   </component>
 </project>
