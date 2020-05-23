@@ -10,6 +10,12 @@ from P3_mock_demo.src.Flights import Flights
 from P3_mock_demo.src.Destinations import Destinations
 from P3_mock_demo.src.Travel import Travel
 from P3_mock_demo.src.Flight import Flight
+from P3_mock_demo.src.Cars import Cars
+from P3_mock_demo.src.ListCars import Car
+from P3_mock_demo.src.Hotel import Hotel
+from P3_mock_demo.src.Hotels import Hotels
+from P3_mock_demo.src.User import User
+from P3_mock_demo.src.PaymentData import PaymentData
 
 
 
@@ -42,7 +48,24 @@ D.info()
 print('-----------------------------------')
 #testeo clase Viaje
 print('testeo clase Viaje eliminar:')
-V = Travel(f, D, 123)
+usuari=User('Fernando', '0000000A', 'Carrer Montblanc', '103860647', 'fernando@ejemplo.com')
+Pd = PaymentData()
+coche=Cars('6677TZ', 'Renault', 'Terrassa', 10, 100)
+coche2=Cars('1238TL', 'Opel', 'Barcelona', 5, 60)
+hotel=Hotel('L2310', 'Don Candido', 3, 1, 5, 120)
+hotel2=Hotel('M1291', 'Vela', 2, 1, 7, 2000)
+
+listacoches=Car([])
+listacoches.añadirCoche(coche2)
+listacoches.añadirCoche(coche)
+
+listahoteles=Hotels([])
+listahoteles.añadirHotel(hotel)
+listahoteles.añadirHotel(hotel2)
+
+Pd.solicitarDatos('MASTERCARD', 'Fernando', 42122343, 872)
+
+V = Travel(f, D, 123, usuari, Pd, listacoches, listahoteles)
 #Eliminas destino y vuelo
 V.eliminarD('Barcelona')
 print('-----------------------------------')
@@ -52,7 +75,36 @@ print('-----------------------------------')
 V.añadirV(2134576, 'Sevilla', 23, 3)
 
 
-print('precio total:')
+
 print('-----------------------------------')
+print('precio total:')
 total = V.calcula_preu()
 print(total)
+
+
+print('Añadir y eliminar coches: ')
+
+
+
+for i in listacoches.cars:
+    print(i.Codigo_coche)
+    print(i.Marca)
+
+listacoches.eliminarCoche(coche)
+print('-----------------------------------')
+for i in listacoches.cars:
+    print(i.Codigo_coche)
+    print(i.Marca)
+
+print('Añadir y eliminar hotles: ')
+
+
+
+for i in listahoteles.Hotels:
+    print(i.Nombre)
+
+listahoteles.eliminarHotel(hotel)
+print('-----------------------------------')
+for i in listahoteles.Hotels:
+    print(i.Nombre)
+

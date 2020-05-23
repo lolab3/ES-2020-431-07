@@ -19,12 +19,14 @@ from . import Skyscanner
 
 class Travel:
 
-    def __init__(self, flight, destinos, idViaje, usuario, datos_pago):
+    def __init__(self, flight, destinos, idViaje, usuario, datos_pago, Coches, Hoteles):
         self.f = flight
         self.d = destinos
         self.id = idViaje
         self.data_payment = datos_pago
         self.user = usuario
+        self.coches=Coches
+        self.hoteles=Hoteles
 
     def informacion(self):
         for elements in self.f:
@@ -38,6 +40,7 @@ class Travel:
 
     def añadirV(self, codigo, destino, precio, pjs):
         self.f.añadirVuelo(codigo, destino, precio, pjs)
+        self.calcula_preu()
 
     def añadirD(self, lugar, dias):
         self.d.añadirDestino(lugar, dias)
@@ -55,7 +58,10 @@ class Travel:
 
     def calcula_preu(self):
         preciovuelos = self.f.calculaflights()
-        return preciovuelos
+        preciocoches= self.coches.calculaCars()
+        precioHoteles=self.hoteles.calculaHotels()
+        preciototal=preciocoches+precioHoteles+preciovuelos
+        return preciototal
 
     def Pago_viaje(self, Bank):
         tarjetas = ['MASTERCARD', 'VISA']

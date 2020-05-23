@@ -1,10 +1,29 @@
 import os
 import os.path
+from . import Hotel
 
 class Hotels:
 
-    def __init__(self):
+    def __init__(self, h):
+        self.Hotels=h
         pass
+
+    def añadirHotel(self, Hotel):
+        self.Hotels.append(Hotel)
+        self.calculaHotels()
+
+    def eliminarHotel(self, Hotel):
+        i=self.Hotels.index(Hotel)
+        self.Hotels.pop(i)
+        self.calculaHotels()
+
+    def calculaHotels(self):
+        preutotal = 0
+        for i in self.Hotels:
+            preutotal += i.Precio
+
+        return preutotal
+
 
     def rm(self, filename):
         """Dummy function to remove a file.

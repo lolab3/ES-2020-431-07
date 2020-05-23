@@ -34,3 +34,4 @@ class Flights:
             preutotal += i.precio * i.N_pjs
 
         return preutotal
+
