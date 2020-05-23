@@ -5,7 +5,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="readme delante de todo" />
+    <list default="true" id="5231df41-b325-449e-afc4-d2120ba3684c" name="Default Changelist" comment="readme delante de todo">
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/PaymentData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/Travel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/src/User.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/src/User.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/P3_mock_demo/tests/mock/test_mock_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/P3_mock_demo/tests/mock/test_mock_1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
     <configuration name="testeo" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true" nameIsGenerated="true">
@@ -307,9 +312,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1362" height="328" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1590160108653" />
-    <state x="252" y="125" key="SettingsEditor" timestamp="1589389587289">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="215" y="11" key="SettingsEditor" timestamp="1590241952630">
+      <screen x="0" y="0" width="1280" height="720" />
     </state>
+    <state x="215" y="11" key="SettingsEditor/0.0.1280.720@0.0.1280.720" timestamp="1590241952630" />
     <state x="252" y="125" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1589389587289" />
     <state x="581" y="349" key="VCS.EditChangelistDialog" timestamp="1589630035078">
       <screen x="0" y="0" width="1500" height="960" />

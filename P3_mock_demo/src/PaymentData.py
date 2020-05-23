@@ -1,13 +1,13 @@
 from . import Travel
-
+from . import Bank
 
 class PaymentData:
-    def __init__(self, v:Travel):
+    def __init__(self):
         self.Tipus_targeta = ''
         self.Nom = ''
         self.Numero_targeta = 0
         self.CodiSeguretat = 0
-        self.Import = v.calcula_preu()
+        #self.Import = Travel.Travel.calcula_preu(self)
 
     def solicitarDatos(self,tipus,nom,numero,codi):
         self.Tipus_targeta = tipus
@@ -21,8 +21,7 @@ class PaymentData:
         else:
             return True
 
-    def confirmarPago(self, valido):
-        if (valido == True):
-            print ('Pago realizado correctamente con', self.Tipus_targeta)
-        else:
-            print('Error en el pago, vuelva a intentarlo')
+
+    def getCardType(self):
+        return self.Tipus_targeta
+

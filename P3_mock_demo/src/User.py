@@ -9,7 +9,13 @@ class User:
         self.dir = dir #dirección postal
         self.NT = NT #num. telefono
         self.email = email
-        self.reserves #lista de reservas donde estarán todos los vuelos/coches/hoteles que ha adquirido este usuario
+        #self.reserves #lista de reservas donde estarán todos los vuelos/coches/hoteles que ha adquirido este usuario
+    def set_user(self,Nom: str, DNI:int , dir: str, NT: int, email: str):
+        self.Nom = Nom
+        self.DNI = DNI
+        self.dir = dir  # dirección postal
+        self.NT = NT  # num. telefono
+        self.email = email
 
     def get_Nom(self) -> str:
         return self.Nom
@@ -21,8 +27,6 @@ class User:
         return self.NT
     def get_email(self) -> str:
         return self.email
-
-
 
 
 
